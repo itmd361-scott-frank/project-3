@@ -3,7 +3,7 @@ if ("geolocation" in navigator) {
         loadWeather(position.coords.latitude+','+position.coords.longitude);
     });
 } else{
-    loadWeather("Bangalore,IN","");
+    loadWeather("Berwyn,IL","");
 }
 
 $(document).ready(function(){
