@@ -1,3 +1,5 @@
+$.noConflict();
+(function($) {
 if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition(function (position) {
         loadWeather(position.coords.latitude+','+position.coords.longitude);
@@ -16,11 +18,11 @@ function loadWeather(location, woeid){
         woeid: woeid,
         unit: 'F',
         success: function(weather){
-            city = weather.city;
-            temp = weather.temp + '&deg;';
-            wcode = '<img class="weathericon" src="images/weathericons/'+weather.code+'.svg">';
-            wind = '<p>'+weather.wind.speed+'</p><p>'+weather.units.speed+'</p>';
-            humidity = weather.humidity+' %';
+           var city = weather.city;
+           var temp = weather.temp + '&deg;';
+           var wcode = '<img class="weathericon" src="images/weathericons/'+weather.code+'.svg">';
+           var wind = '<p>'+weather.wind.speed+'</p><p>'+weather.units.speed+'</p>';
+           var humidity = weather.humidity+' %';
             $(".location").text(city);
             $(".temperature").html(temp);
             $(".climate_bg").html(wcode);
@@ -33,3 +35,4 @@ function loadWeather(location, woeid){
         
     });
 }
+})(jQuery);
