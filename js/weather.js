@@ -14,7 +14,7 @@ function loadWeather(location, woeid){
     $.simpleWeather({
         location: location,
         woeid: woeid,
-        unit: 'C',
+        unit: 'F',
         success: function(weather){
             city = weather.city;
             temp = weather.temp + '&deg;';
