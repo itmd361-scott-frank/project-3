@@ -54,31 +54,7 @@ footer{
 }
 
 /* ===== LAYOUT STYLES ===== */
- .container {
-            display: flex;
-            width: 50%;
-            height: 75%;
-            max-height: 75%;
-            border: 1px solid black;
-            background: blue;
-        }
-        .left {
-            flex: 0 1 50%;
-            min-height: 100%;
-            max-width: 50%;
-            border: 1px solid black;
-            padding: .5em;
-            color: white;
-        }
-        .right {
-            flex: 0 1 50%;
-            display: flex;
-            height: 100%;
-            max-width: 50%;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            color: white;
-        }
+ 
 
 /* ===== MODULAR STYLES ===== */
 
