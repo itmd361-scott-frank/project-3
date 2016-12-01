@@ -5,7 +5,7 @@ $(document).ready(function(){
     $('#movie-form').on('submit', function(e) { 
         e.preventDefault(); 
         var poster = $('#movie').val();
-        var url = 'http://www.omdbapi.com/?t=' + poster + '&r=json' + '&plot=full';
+        var url = 'https://www.omdbapi.com/?t=' + poster + '&r=json' + '&plot=full';
         $.get(url).done(
           function(data,json) {
             var movie = data.Poster;
@@ -27,7 +27,7 @@ $(document).ready(function(){
               $('#Plot').empty();
               $('#Metascore').empty();
               $('#imdb').empty();
-              $('#poster').html('<img id="thePoster" src="http://vignette2.wikia.nocookie.net/assassinscreed/images/3/39/Not-found.jpg/revision/latest?cb=20110517171552" alt = "No Photo found" />');
+              $('#poster').html('<img id="thePoster" src="https://vignette2.wikia.nocookie.net/assassinscreed/images/3/39/Not-found.jpg/revision/latest?cb=20110517171552" alt = "No Photo found" />');
             }
           })
           
