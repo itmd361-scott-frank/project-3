@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Roman/Partacz Project 3</title>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-      <link rel="stylesheet" type="text/css" media="screen" href= "css/screen.css" />
-      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet"> 
-  </head>
-    <body>
-      <main>
-        <h1>Project 3 under construction....</h1>
-          <header>
-          </header>
-      </main>
-      <footer>&#127891 Web designers: Francisco Roman and Scott Partacz</footer>
-    </body>
+<head>
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="js/movie.js"></script>
+   <link rel="stylesheet" href="css/screen.css" />
+</head>
+<body>
+   <header>
+      <h1>Movie Posters</h1>
+   </header>
+   <form id="movie-form" method="get" action="#null" >
+      <input type="text" placeholder="Enter a movie title" id="movie" />
+     <input id="movie-submit" type="submit" name="movie-submit" value="Find the poster" />
+   </form>
+   <p id = "ERROR"></p>
+   <section id = "movie_details">
+     <p id ="Rating"></p>
+     <p id = "Release"></p>
+     <p id = "Runtime"></p>
+   </section>
+   <section id="poster">
+   </section>
+   <p id = "Plot"></p>
+   <section id = "scores">
+     <p id = "Metascore"></p>
+     <p id = "imdb"></p>
+   </section>
+   <footer>
+      <p>Web designers: Francisco Roman and Scott Partacz</p>
+   </footer>
+</body>
 </html>
-
