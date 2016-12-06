@@ -17,7 +17,7 @@ $(document).ready(function(){
               $('#poster').html('<a href="http://www.imdb.com/find?ref_=nv_sr_fn&q='+poster+'&s=all"><img id="thePoster" src=' + movie + ' alt = "Poster Not Found" /></a>');
               $('#Plot').text('Plot: ' + data.Plot);
               $('#Metascore').text('MetaScore: ' + data.Metascore);
-              $('#imdb').text('IMDbRating: ' + data.imdbRating);
+              $('#imdb').html('<a href="http://www.imdb.com/title/' + data.imdbID + '/">IMDBRating: ' + data.imdbRating + '</a>') 
             }
             else {
               $('#ERROR').text('Error: ' + data.Error);

@@ -15,7 +15,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
-  background: url(../images/backdrop-bw.jpg)no-repeat center center fixed;
+  background: url(../images/backdrop-bw2.jpg)no-repeat center center fixed;
   /*-webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;*/
@@ -62,16 +62,18 @@ body{
 p,
 ul {
   padding-bottom: 1.2em; /* 1 girdline */
+  font-family: 'Great Vibes', cursive;
+  font-weight: bold; 
+  line-height: 1;
+  color:black;
+  padding-top:1.75em;
+  text-decoration:none;
 }
 
-li {
-  padding-bottom: 0.5em; /*half grid line 10px/20px = 0.5em */ 
+#movie_details #imdb{
+  text-decoration:none;
+  text-color:black;
 }
-
-li:last-child {
-  padding-bottom: 0;
-}
-
 
 img,
 video {
