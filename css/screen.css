@@ -27,11 +27,6 @@ html {
   line-height: 1.2em; /*24/20= 1.2 em */
 }
 
-h1 {
-  font-size: 1.601em; /* 32.036px/20px = 1.601em */
-  line-height: 1.404em; /* 45/32.036 = 1.404em */
-}
-
 body{
   margin:0;
   padding:0;
