@@ -153,6 +153,34 @@ video {
   margin: 0 auto;
 }
 
+#poster{
+  width:390px;
+  position: relative;
+  height:475px;
+  float:left;
+}
+
+#poster img {
+  float:left;
+}
+
+#story{
+  padding-top:50px;
+  position: relative;
+  width:800px;
+  height:300px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow:auto;
+  clear:both;
+}
+
+#story p{
+  color:black;
+  font-weight:bold;
+}
+
+
 #footer{
   height:100px;
   margin-bottom:21px;
