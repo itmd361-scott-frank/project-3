@@ -187,7 +187,7 @@ video {
   height:8px;
   width:100%;
   padding-top: .2em; /* 1 girdline */
-  background-color: #c9d6cd;
+  /*background-color: #c9d6cd;*/
   position: absolute;
   top:0;
   bottom: 0;
