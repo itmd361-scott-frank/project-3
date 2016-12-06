@@ -7,13 +7,14 @@
    <link rel="stylesheet" href="css/screen.css" />
 </head>
 <body>
-   <header>
-      <h1>Movie Posters</h1>
-   </header>
-   <form id="movie-form" method="get" action="#null" >
-      <input type="text" placeholder="Enter a movie title" id="movie" />
-     <input id="movie-submit" type="submit" name="movie-submit" value="Find the poster" />
-   </form>
+<div id="container">
+  <div id="header"><p>"Every film should seem new everytime you see it..." Roger Ebert</p></div> 
+   <div id="input-div">
+      <form id="movie-form" method="get" action="#null" >
+        <input type="text" placeholder="Enter a movie title" id="movie" />
+        <input id="movie-submit" type="submit" name="movie-submit" value="Find the poster" />
+      </form>
+   </div>
    <p id = "ERROR"></p>
    <section id = "movie_details">
      <p id ="Rating"></p>
@@ -27,8 +28,11 @@
      <p id = "Metascore"></p>
      <p id = "imdb"></p>
    </section>
+  <div id="footer">
    <footer>
       <p>Web designers: Francisco Roman and Scott Partacz</p>
    </footer>
+  </div>
+  </div>
 </body>
 </html>
