@@ -15,6 +15,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 html {
+  background: url(../images/backdrop-bw.jpg)no-repeat center center fixed;
+  /*-webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;*/
+  background-size:cover;
+  height:100%;
+  margin:0;
+  padding:0;
   font-size: 1.25em; /*20px 1 em 1.25@16 */
   line-height: 1.2em; /*24/20= 1.2 em */
 }
@@ -60,7 +68,5 @@ footer{
 
 
 /* ===== STATE STYLES ===== */
-
-
 
 
