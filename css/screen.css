@@ -32,6 +32,38 @@ h1 {
   line-height: 1.404em; /* 45/32.036 = 1.404em */
 }
 
+body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#header {
+  background-color:;
+  margin-left:auto;
+  margin-right:auto;
+  height:150px;
+  font-size: 1.601em; /* 32.036px/20px = 1.601em */
+  line-height: 1.404em; /* 45/32.036 = 1.404em */
+  color: #111; 
+  font-family: 'Great Vibes', cursive;   
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1;
+  color:black;
+  position:relative;
+}
+
+#header p{
+  font-family: 'Great Vibes', cursive;   
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1;
+  color:black;
+  text-align: center;
+  padding-top:1.75em;
+}
+
 p,
 ul {
   padding-bottom: 1.2em; /* 1 girdline */
