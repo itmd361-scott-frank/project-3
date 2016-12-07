@@ -1,13 +1,15 @@
 $.noConflict();
 (function($) {
   
-$(document).ready(function(){
+  $(document).ready(function(){
+    var poster;
+    var url;
     $('#movie-form').on('submit', function(e) { 
-        e.preventDefault(); 
-        var poster = $('#movie').val();
-        var url = 'https://www.omdbapi.com/?t=' + poster + '&r=json' + '&plot=full';
-        $.get(url).done(
-          function(data,json) {
+      e.preventDefault(); 
+      poster = $('#movie').val();
+      url = 'https://www.omdbapi.com/?t=' + poster + '&r=json' + '&plot=full';
+      $.get(url).done(
+          function(data) {
             var movie = data.Poster;
             if(movie !== null) {
               $('#error').empty();
@@ -32,6 +34,6 @@ $(document).ready(function(){
           });
           
     });
-});
+  });
    
 })(jQuery);
