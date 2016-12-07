@@ -16,9 +16,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   background: url(../images/backdrop-bw2.jpg)no-repeat center center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
   background-size:cover;
   height:100%;
   margin:0;
@@ -55,7 +52,6 @@ ul {
 
 #movie_details #imdb{
   text-decoration:none;
-  text-color:black;
 }
 
 img,
@@ -69,8 +65,6 @@ video {
   height:auto;
   margin-left:auto;
   margin-right:auto;
-  top:11px;
-  margin-bottom:21px;
 }
 
 #pic{
@@ -161,8 +155,6 @@ video {
   height:1%;/* 8px/800px=0.01*/
   width:100%;
   position: absolute;
-  top:0;
-  bottom: 0;
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -225,7 +217,7 @@ video {
 }
 
 #story{
-  padding-top:6.25;/* 50px/800px=0.0625*/
+  padding-top:6.25%;/* 50px/800px=0.0625*/
   margin-left:auto;
   margin-right:auto;
 }
@@ -270,7 +262,6 @@ video {
 #movie_details p{
   color:black;
   font-weight:bold;
-  margin: 0 auto;
 }
 
 #input-div{
@@ -281,4 +272,5 @@ video {
   height:12.5%;/* 100/800= 0.125*/
   margin-left:auto;
   margin-right:auto;
+}
 }
