@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script src="js/movie.js"></script>
-   <link rel="stylesheet" href="css/screen.css" />
+  <title> ITMD-361</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/movie.js"></script>
+  <link rel="stylesheet" href="css/screen.css" />
 </head>
 <body>
   <div id="container">
-  <div id="header"><p>"Every film should seem new everytime you see it..." Roger Ebert</p></div> 
+  <div id="header"><p>"Every film should seem new everytime you see it..." Roger Ebert</p></div>
   <div id="input-div">
     <form id="movie-form" method="get" action="#null" >
       <input type="text" placeholder="Enter a movie title" id="movie" />
-      <input id="movie-submit" type="submit" name="movie-submit" value="Find the poster" />
+      <input id="movie-submit" type="submit" name="movie-submit" value="Find the Movie" />
     </form>
   </div>
-    <p id = "error"></p>
+    <p id="error"></p>
   <div id="poster"></div>
-  <div id = "movie_details">
-    <p id ="rating"></p>
-    <p id = "release"></p>
-    <p id = "runtime"></p>
-    <p id = "metascore"></p>
-    <p id = "imdb"></p>
+  <div id="movie-details">
+    <p id="rating"></p>
+    <p id="release"></p>
+    <p id="runtime"></p>
+    <p id="metascore"></p>
+    <p id="imdb"></p>
   </div>
   <div id="story">
-    <p id = "plot"></p>
+    <p id="plot"></p>
   </div> 
   <div id="footer">
     <p>Web designers: Francisco Roman and Scott Partacz</p>
