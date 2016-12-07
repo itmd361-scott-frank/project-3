@@ -14,10 +14,11 @@ $(document).ready(function(){
               $('#Rating').text('Rated: ' + data.Rated);
               $('#Release').text('Release: ' + data.Released);
               $('#Runtime').text('Runtime: ' + data.Runtime);
-              $('#poster').html('<img id="thePoster" src=' + movie + ' alt = "Poster Not Found" />');
+              $('#poster').html('<img id="thePoster" src="' + movie + '" alt="Poster of ' + data.Title + '" />');
               $('#Plot').text('Plot: ' + data.Plot);
               $('#Metascore').text('MetaScore: ' + data.Metascore);
-              $('#imdb').text('IMDbRating: ' + data.imdbRating);
+              $('#imdb').html('<a href="http://www.imdb.com/title/' + data.imdbID + '/">IMDBRating: ' + data.imdbRating + '</a>')
+             // $('#imdb').text('IMDbRating: ' + data.imdbRating);
             }
             else {
               $('#ERROR').text('Error: ' + data.Error);
