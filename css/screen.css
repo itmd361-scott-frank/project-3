@@ -44,12 +44,12 @@ body{
 
 p,
 ul {
-  padding-bottom: 1.2em; /* 1 girdline */
+  padding-bottom: .52em; /* 1 girdline */
   font-family: 'Great Vibes', cursive;
   font-weight: bold; 
-  line-height: 1;
+  line-height: 1.3em;
   color:black;
-  padding-top:1.75em;
+  padding-top:.75em;
   text-decoration:none;
 }
 
