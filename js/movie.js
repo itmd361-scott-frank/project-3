@@ -14,18 +14,10 @@ $(document).ready(function(){
               $('#Rating').text('Rated: ' + data.Rated);
               $('#Release').text('Release: ' + data.Released);
               $('#Runtime').text('Runtime: ' + data.Runtime);
-<<<<<<< HEAD
-              $('#poster').html('<img id="thePoster" src="' + movie + '" alt="Poster of ' + data.Title + '" />');
-              $('#Plot').text('Plot: ' + data.Plot);
-              $('#Metascore').text('MetaScore: ' + data.Metascore);
-              $('#imdb').html('<a href="http://www.imdb.com/title/' + data.imdbID + '/">IMDBRating: ' + data.imdbRating + '</a>')
-             // $('#imdb').text('IMDbRating: ' + data.imdbRating);
-=======
               $('#poster').html('<a href="http://www.imdb.com/find?ref_=nv_sr_fn&q='+poster+'&s=all"><img id="thePoster" src=' + movie + ' alt = "Poster Not Found" /></a>');
               $('#Plot').text('Plot: ' + data.Plot);
               $('#Metascore').text('MetaScore: ' + data.Metascore);
               $('#imdb').html('<a href="http://www.imdb.com/title/' + data.imdbID + '/">IMDBRating: ' + data.imdbRating + '</a>') 
->>>>>>> 50972fa22e84c60b984d3a25d819997bc9756df7
             }
             else {
               $('#ERROR').text('Error: ' + data.Error);
@@ -43,4 +35,3 @@ $(document).ready(function(){
 });
    
 })(jQuery);
-

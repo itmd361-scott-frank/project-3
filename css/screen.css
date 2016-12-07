@@ -119,10 +119,10 @@ video {
 }
 
 #input-div{
-  padding-top:2em;
+  padding-top:3em;
   padding-bottom:2em;
   position: relative;
-  width:43.75%;/* 350px/800px=0.4375 */
+  width:60%;/* 350px/800px=0.4375 */
   height:12.5%;/* 100/800= 0.125*/
   margin-left:auto;
   margin-right:auto;
@@ -131,37 +131,12 @@ video {
 #input-div form{
   padding-top:20px;/* 20px/800px */
   margin: 0 auto;
-  width:27.875%;/* 223px/800px=0.27875*/
+  width:100%;/* 223px/800px=0.27875*/
 }
 
 #input-div #movie-submit{
   margin-left:auto;
   margin-right:auto;
-}
-
-#movie_details{
-  position: relative;
-  width:50%;/* 400px/800px=0.5 */
-  height:59.37%;/* 475px/800px=0.59375 */
-  float:right;
-  padding-bottom:1.875%;/* 15px/800px=0.01875 */
-}
-
-#movie_details p{
-  color:black;
-  font-weight:bold;
-  margin: 0 auto;
-}
-
-#poster{
-  width:50%;/* 400px/800px=0.5 */
-  position: relative;
-  height:59.37%;/* 475px/800px=0.59375 */
-  float:left;
-}
-
-#poster img {
-  float:left;
 }
 
 #story{
@@ -193,7 +168,6 @@ video {
   width:100%;
   padding-top: .2em; /* 1 girdline */
   padding-bottom: 1.95em; /* 1 girdline */
-  background-color: #c9d6cd;
   position: absolute;
   top:0;
   bottom: 0;
@@ -209,4 +183,39 @@ video {
 
 /* ===== STATE STYLES ===== */
 
+@media screen and (min-width: 30em) {
+#poster{
+  width:50%;/* 400px/800px=0.5 */
+  position: relative;
+  height:59.37%;/* 475px/800px=0.59375 */
+  float:left;
+}
 
+#poster img {
+  float:left;
+}
+
+#movie_details{
+ 
+  position: relative;
+  width:45%;/* 400px/800px=0.5 */
+  height:59.37%;/* 475px/800px=0.59375 */
+  float:right;
+  padding-bottom:1.875%;/* 15px/800px=0.01875 */
+}
+
+#movie_details p{
+  color:black;
+  font-weight:bold;
+  margin: 0 auto;
+}
+
+#input-div{
+  padding-top:3em;
+  padding-bottom:2em;
+  position: relative;
+  width:25%;/* 350px/800px=0.4375 */
+  height:12.5%;/* 100/800= 0.125*/
+  margin-left:auto;
+  margin-right:auto;
+}
