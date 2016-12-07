@@ -1,6 +1,5 @@
 $.noConflict();
 (function($) {
-  
   $(document).ready(function(){
     var poster;
     var url;
