@@ -10,7 +10,7 @@ $.noConflict();
       $.get(url).done(
           function(data) {
             var movie = data.Poster;
-            if(movie !== null) {
+            if(movie != null) {
               $('#error').empty();
               $('#rating').text('Rated: ' + data.Rated);
               $('#release').text('Release: ' + data.Released);
